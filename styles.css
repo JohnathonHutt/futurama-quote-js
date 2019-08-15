@@ -1,0 +1,98 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(198, 211, 217);
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+#container {
+  margin: 0 auto;
+}
+
+.title {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1rem;
+  color: white;
+  background-color: rgb(128, 136, 141);
+  padding-top: 10px;
+  padding-bottom: 14px;
+  border-bottom: 12px inset rgb(31, 41, 166);
+}
+
+.question {
+  background-color: rgb(212, 232, 243);
+  font-size: 1.6rem;
+  width: 60%;
+  height: 11rem;
+  margin: 8% auto 5% auto;
+  padding: 15px;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+
+.answerBox {
+  width: 40%;
+  margin: 0 auto;
+  border: 2px solid white;
+  border-radius: 15px;
+  color: white;
+  background-color: rgb(31, 41, 166);
+}
+
+.answerTop {
+  border-bottom: 1px dashed white;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.answerTop:hover {
+  color: black;
+  background-color: white;
+}
+
+.answerMid {
+  border-bottom: 1px dashed white;
+  border-top: 1px dashed white;
+  padding: 20px;
+}
+
+.answerMid:hover {
+  color: black;
+  background-color: white;
+}
+
+.answerBottom {
+  border-top: 1px dashed black;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.answerBottom:hover {
+  color: black;
+  background-color: white;
+}
+
+.hide {
+  height: 1px;
+  width:1px;
+  display: none;
+}
+
+.message {
+  background-color: rgb(31, 41, 166);
+  display: inline-block;
+  color: white;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding: 25px 25px;
+  border: 3px solid black;
+  border-radius: 15px;
+  margin-top: 10%;
+}
